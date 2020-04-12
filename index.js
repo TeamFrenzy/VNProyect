@@ -8,13 +8,13 @@ const router = express.Router();
 const bodyParser = require('body-parser');
 
 
-app.use('/gameDos', express.static(htmlPath));
+app.use('/', express.static(htmlPath));
 app.use(logger('dev'));
 app.use(bodyParser.urlencoded({
   extended: false
 }))
 app.use(bodyParser.json())
-app.use('/',
+app.use('/req',
   function (req, res) {
     console.log('loginIn');
     console.log(req.body);
@@ -30,10 +30,6 @@ app.use('/',
     );
     //return res.json(req.user);
   });
-
-app.on('request', (req, res) => {
-  res.end('nigger');
-});
 
 
 //router.post('/',
