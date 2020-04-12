@@ -8,7 +8,7 @@ const router = express.Router();
 const bodyParser = require('body-parser');
 
 
-app.use('/game', express.static(htmlPath));
+app.use('/gameDos', express.static(htmlPath));
 app.use(logger('dev'));
 app.use(bodyParser.urlencoded({
   extended: false
@@ -20,16 +20,28 @@ app.use('/',
     console.log(req.body);
     const { id, username, password, route } = req.body;
     console.log(username);
-    return res.json(req.user);
+    res.json(
+      {
+        name: "alfredo",
+        lastName: "caseros"
+      }
+      // anArray: ["item1", "item2"], 
+      // another: "item"
+    );
+    //return res.json(req.user);
   });
 
+app.on('request', (req, res) => {
+  res.end('nigger');
+});
 
-router.post('/',
-  function (req, res) {
-    console.log('loginIn');
-    console.log(req.body);
-    return res.json(req.user);
-  });
+
+//router.post('/',
+//function (req, res) {
+//  console.log('loginIn');
+// console.log(req.body);
+// return res.json(req.user);
+//});
 
 app.set('port', process.env.PORT || 3000);
 app.listen(app.get('port'), () => {
