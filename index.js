@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const htmlPath = path.join(__dirname, 'game');
+const htmlPath = path.join(__dirname, 'gameWeb');
 const logger = require('morgan');
 const cors = require('cors');
 const router = express.Router();
