@@ -17,7 +17,7 @@ const pool = mysql.createPool(database);
 pool.query = promisify(pool.query);
 
 app.use(session({
-  secret: 'niggasecret',
+  secret: 'secret',
   resave: false,
   saveUninitialized: false,
   store: new MySQLStore(database)
@@ -74,7 +74,7 @@ app.use('/saveroute', async (req, res) =>{
 
 app.set('port', process.env.PORT || 3000);
 app.listen(app.get('port'), () => {
-  console.log('Server on port, negger!');
+  console.log('Server on port!');
 });
 
 pool.getConnection((err, connection) => {
@@ -93,6 +93,6 @@ pool.getConnection((err, connection) => {
   }
 
   if(connection) connection.release();
-  console.log('DB IS CONNECTEEED');
+  console.log('DB is Connected!');
   return;
 });
