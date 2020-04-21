@@ -1,0 +1,75 @@
+{
+  "diaList": [
+    {
+      "name": "7",
+      "dialogue": "Fantosa.",
+      "conditionAmount": "1",
+      "conditionList": [
+        {
+          "condition": "fanta"
+        }
+      ]
+    },
+
+    {
+      "name": "7",
+      "dialogue": "Fantosa y fantasiosa."
+    },
+
+    {
+      "name": "7",
+      "dialogue": "Y ffffff..."
+    },
+
+    {
+      "name": "5",
+      "dialogue": "Decilo."
+    },
+    {
+      "name": "2",
+      "dialogue": "Ya se! Jamon o salame?",
+      "choiceAmount": "3",
+      "choices": [
+        {
+          "text": "Jamon",
+          "mark": "jamonesa",
+          "divergence":  true,
+          "conditionAmount": "2",
+          "conditionList": [
+            {
+              "condition": "fanta"
+            },
+            {
+              "condition": "jamon"
+            }
+          ]
+        },
+        {
+          "text": "Salame",
+          "mark": "salamesa",
+          "divergence": true,
+          "conditionAmount": "2",
+          "conditionList": [
+            {
+              "condition": "fanta"
+            },
+            {
+              "condition": "salame"
+            }
+          ]
+        },
+        {
+          "text": "Ninguno de los dos.",
+          "mark": "masAmargaAun",
+          "divergence": true,
+          "conditionAmount": "1",
+          "conditionList": [
+            {
+              "condition": "fanta"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

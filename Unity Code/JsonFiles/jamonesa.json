@@ -1,0 +1,24 @@
+{
+  "diaList": [
+    {
+      "name": "5",
+      "dialogue": "Jamon, diria."
+    },
+    {
+      "name": "7",
+      "dialogue": "Jamonesa."
+    },
+    {
+      "name": "5",
+      "dialogue": "7, ya ni te entiendo."
+    },
+    {
+      "name": "7",
+      "dialogue": "Soy superior."
+    },
+    {
+      "name": "2",
+      "dialogue": "En que sentido?"
+    }
+  ]
+}

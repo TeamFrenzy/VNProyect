@@ -1,0 +1,40 @@
+{
+  "diaList": [
+    {
+      "name": "5",
+      "dialogue": "Ninguna."
+    },
+    {
+      "name": "7",
+      "dialogue": "Cierto que sos SALUDABLE vos."
+    },
+    {
+      "name": "5",
+      "dialogue": "7, ya comprobaste que mi paciencia tiene un limite."
+    },
+    {
+      "name": "5",
+      "dialogue": "Pisa el freno."
+    },
+    {
+      "name": "7",
+      "dialogue": "Tas calenchu?"
+    },
+    {
+      "name": "5",
+      "dialogue": "Dos."
+    },
+    {
+      "name": "2",
+      "dialogue": "Que?"
+    },
+    {
+      "name": "7",
+      "dialogue": "Que?"
+    },
+    {
+      "name": "5",
+      "dialogue": "Hah. Nada."
+    }
+  ]
+}

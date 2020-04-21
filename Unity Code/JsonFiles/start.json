@@ -1,0 +1,147 @@
+{
+  "diaList": [
+    {
+      "name": "5",
+      "dialogue": "Probando.",
+      "conditionAmount": "1",
+      "conditionList": [
+        {
+          "condition": "start"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "dialogue": "Probando probando!"
+    },
+    {
+      "name": "7",
+      "dialogue": "Aver, probando tambien."
+    },
+    {
+      "name": "2",
+      "dialogue": "5, que estas comiendo?",
+      "choiceAmount": "3",
+      "choices": [
+        {
+          "text": "Saladix de jamon.",
+          "mark": "jamon",
+          "divergence":  false,
+          "conditionAmount": "1",
+          "conditionList": [
+            {
+              "condition": "start"
+            }
+          ]
+        },
+        {
+          "text": "Gertrix de salame.",
+          "mark": "salame",
+          "divergence": false,
+          "conditionAmount": "1",
+          "conditionList": [
+            {
+              "condition": "start"
+            }
+          ]
+        },
+        {
+          "text": "Nada.",
+          "mark": "nada",
+          "divergence": false,
+          "conditionAmount": "1",
+          "conditionList": [
+            {
+              "condition": "start"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "name": "2",
+      "dialogue": "Ah, jamon! Me encanta!",
+      "conditionAmount": "1",
+      "conditionList": [
+        {
+          "condition": "jamon"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "dialogue": "Ah, salame! Me encanta!",
+      "conditionAmount": "1",
+      "conditionList": [
+        {
+          "condition": "salame"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "dialogue": "Pero estas masticando.",
+      "conditionAmount": "1",
+      "conditionList": [
+        {
+          "condition": "nada"
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "dialogue": "Rara. Pregunta otra cosa.",
+      "conditionAmount": "1",
+      "conditionList": [
+        {
+          "condition": "start"
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "dialogue": "Bueno, coca o fanta?",
+      "choiceAmount": "3",
+      "choices": [
+        {
+          "text": "Fanta.",
+          "mark": "fanta",
+          "divergence": true,
+          "conditionAmount": "1",
+          "conditionList": [
+            {
+              "condition": "start"
+            }
+          ]
+        },
+        {
+          "text": "Coca.",
+          "mark": "coca",
+          "divergence": true,
+          "conditionAmount": "1",
+          "conditionList": [
+            {
+              "condition": "start"
+            }
+          ]
+        },
+        {
+          "text": "Sabias que la cicuta es deliciosa?",
+          "mark": "amarga",
+          "divergence": true,
+          "conditionAmount": "2",
+          "conditionList": [
+            {
+              "condition": "start"
+            },
+            {
+              "condition": "caliente"
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+}

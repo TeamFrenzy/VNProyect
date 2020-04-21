@@ -1,0 +1,24 @@
+{
+  "diaList": [
+    {
+      "name": "5",
+      "dialogue": "Salame, aveces."
+    },
+    {
+      "name": "7",
+      "dialogue": "Salamesa."
+    },
+    {
+      "name": "5",
+      "dialogue": "Salamandra."
+    },
+    {
+      "name": "7",
+      "dialogue": "Con el humo que hechas, hahaha."
+    },
+    {
+      "name": "",
+      "dialogue": "5 le escupe humo en la cara a 7."
+    }
+  ]
+}
